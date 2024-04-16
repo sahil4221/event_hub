@@ -1,4 +1,5 @@
 import 'package:event_hub/screens/auth.dart';
+import 'package:event_hub/screens/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignIn(),
+      home: HomeScreen(),
     );
   }
 }
